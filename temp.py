@@ -12,12 +12,12 @@ def readInput(useTestInput, test):
 
 
 # Task 1
-def task1():
+def task1(input):
     pass
 
 
 # Task 2
-def task2():
+def task2(input):
     
     pass
 
@@ -27,6 +27,6 @@ test = """
 useTestInput = True
 input = readInput(useTestInput, test)
 
-print(task1())
+print(task1(input))
 
-print(task2())
+print(task2(input))
